@@ -1,6 +1,5 @@
 # CMAKE File for Application folder
 # Creates Executable and library 
-
 set(This Application)
 
 set(Sources 

@@ -1,5 +1,5 @@
-# Cmake GTest Template
-This repository is a template project for C/C++ projects built with CMake and G-TEST
+# Cmake GTest Template {#mainpage}
+This repository is a template project for C/C++ projects built with CMake, G-TEST and Doxygen
 
 ## Table of contents
 - [Project-structure](#project-structure)
@@ -12,6 +12,7 @@ This repository is a template project for C/C++ projects built with CMake and G-
 The project is structured in the form of Application folder and Test folder, each with its own executables 
 The central idea is to create an application library that, along with the G-test library gets linked with a test application 
 G-Test is fetched remotely
+Doxygen generates files for application through CMake
 
 ```
 CMAKE_TEMPLATE
@@ -38,6 +39,10 @@ CMAKE_TEMPLATE
 ¦            AppTest.cpp
 ¦
 +---build  
++---docs 
+¦    +---html
+¦    +---Doxyfile.in
+¦    +---Doxyfile.Out
 
 ```
 
@@ -50,9 +55,8 @@ CMAKE_TEMPLATE
 1. Please refer to the LICENSE file 
 
 ## Contact-Me
-1. You can reach out to me on LinkedIn here
-https://www.linkedin.com/in/vishal-keshava-murthy-8a2ba1a7/
+- [vishal keshava Murthy](https://www.linkedin.com/in/vishal-keshava-murthy-8a2ba1a7/) on LinkedIn
+- [vishal keshava Murthy](https://github.com/VKM96) on GIT-HUB
 
 ## To-Do 
 1. Integrate CI pipeline with Github/Gitlab 
-2. Integrate Doxygen for documentation generation 
